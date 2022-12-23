@@ -325,3 +325,72 @@ header .container {
   margin: 0.6rem auto;
   transition: var(--transition);
 }
+
+.btns .btn:last-child {
+  color: var(--btn-background);
+  background: transparent;
+}
+
+.btns .btn:first-child:hover {
+  background: transparent;
+  color: var(--btn-background);
+}
+
+.btns .btn:last-child:hover {
+  background: var(--btn-background);
+  color: var(--white-background);
+}
+
+@media screen and (min-width: 480px) {
+  .btns button{
+    display: inline-block;
+  }
+  .btns button:first-child {
+    margin-right: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .navbar {
+    padding: 1.5rem 3rem!important;
+  }
+  .cart-container {
+    width: 480px;
+    left: auto;
+    right: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 1.5rem 6rem!important;
+  }
+  .cart-container {
+    right: 6rem;
+  }
+  .banner {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-content: center;
+  }
+
+  .banner-content {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    padding: 1.5rem 14rem!important;
+  }
+  .cart-container {
+    right: 14rem;
+  }
+
+  .banner-content h1 {
+    font-size: 3.5rem;
+  }
+}
+  
+}
