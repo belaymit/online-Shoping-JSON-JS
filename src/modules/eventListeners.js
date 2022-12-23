@@ -1,8 +1,13 @@
-import { navbarToggler, navabarCollapse } from './allConstants.js';
+import {
+  navbarToggler, navbarCollapse, cartBtn, cartContainer,
+} from './allConstants.js';
 
-const eventListner = () => {
+const eventListener = () => {
   navbarToggler.addEventListener('click', () => {
-    navabarCollapse.classList.toggle('show-navbar');
+    navbarCollapse.classList.toggle('show-navbar');
+  });
+  cartBtn.addEventListener('click', () => {
+    cartContainer.classList.toggle('show-cart-container');
   });
 };
-export default eventListner;
+export default eventListener;
