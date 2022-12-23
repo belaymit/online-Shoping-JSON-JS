@@ -43,6 +43,7 @@
   --granite-gray: #626a6a;
   --baltic-sea: #33383c;
   --dark-red-color:#e22b13;
+  --btn-background: #5dade2;
 }
 
 /*
@@ -282,4 +283,45 @@ header .container {
 #cart-total-value {
   font-size: 1.3rem;
   font-weight: 500;
+}
+
+.banner {
+  flex: 1;
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.banner > div {
+  margin: 3rem 0;
+}
+
+.banner text {
+  font-weight: 500;
+  font-size: 1.15rem;
+  opacity: .45;
+}
+
+.banner-content h1 {
+  background: -webkit-linear-gradient(#e93e14, hsl(330, 91%, 21%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btns {
+  margin: 1.5rem 0;
+}
+
+.btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid var(--btn-background);
+  background: var(--btn-background);
+  color: var(--white-background);
+  padding: .95rem 0;
+  letter-spacing: 0;
+  display: block;
+  width: 180px;
+  margin: 0.6rem auto;
+  transition: var(--transition);
 }
