@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/Images/online-shopping-icon.jpg" alt="logo" width="440"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -60,17 +60,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 online-Shopping-JSON-JS  <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+
+**online-Shopping-JSON-JS** is an educational project that I developed using different tutorials as a reference and I learned a lot about git-flow, webpack, APIs and JSON.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -97,11 +96,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Home Page**
+- **Gallery**
+- **New Arrivals**
+- **Blogs**
+- **Contact**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,59 +119,58 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+> install Node.js
+> install VsCode or any of your favored code editor
+#### You have to have a knowledge of:
+> HTML/CSS/JavaScript
+> ES6
+> linters
+> webpack, and
+> git flow and GitHub flow
+> APIs and JSON
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:belaymit/online-Shoping-JSON-JS.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+
 
 ```sh
-  cd my-project
-  gem install
+  cd online-Shoping-JSON-JS
+  npm install
 ```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+
 
 ```sh
-  rails server
+  npm run build
+  npm start
 ```
---->
+
 
 ### Run tests
 
@@ -189,13 +188,7 @@ Example command:
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+>GitHub Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +198,14 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Belay Birhanu G.**
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/belaymit?tab=repositories)
+- Twitter: [@twitterhandle](https://twitter.com/2belamit)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/belay-birhanu-144ba714b/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
