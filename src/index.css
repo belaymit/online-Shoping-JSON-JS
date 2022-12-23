@@ -307,7 +307,7 @@ header .container {
   -webkit-text-fill-color: transparent;
 }
 
-.btns {
+.btn-container {
   margin: 1.5rem 0;
 }
 
@@ -326,17 +326,17 @@ header .container {
   transition: var(--transition);
 }
 
-.btns .btn:last-child {
+.btn-container .btn:last-child {
   color: var(--btn-background);
   background: transparent;
 }
 
-.btns .btn:first-child:hover {
+.btn-container .btn:first-child:hover {
   background: transparent;
   color: var(--btn-background);
 }
 
-.btns .btn:last-child:hover {
+.btn-container .btn:last-child:hover {
   background: var(--btn-background);
   color: var(--white-background);
 }
@@ -460,11 +460,31 @@ footer > .container {
   justify-content: center;
 }
 
+.social-icons {
+  display: flex;
+  padding: 3rem 0;
+}
+
+.social-icons a {
+  color: var(--granite-gray);
+  margin: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
+.social-icons a:hover {
+  color: var(--white-background);
+}
+
 @media screen and (min-width: 480px) {
-  .btns button{
+  .btn-container button{
     display: inline-block;
   }
-  .btns button:first-child {
+  .btn-container button:first-child {
     margin-right: 0.4rem;
   }
 }
@@ -511,6 +531,16 @@ footer > .container {
   }
   .product-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-container {
+    text-align: left;
+  }
+
+  .footer-container .text {
+    width: 60%;
+  }
+  .footer-container .btn {
+    margin-left: 0;
   }
 }
 
