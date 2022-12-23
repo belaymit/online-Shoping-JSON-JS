@@ -428,6 +428,38 @@ header .container {
   font-weight: 500;
   opacity: 0.6;
 }
+
+footer {
+  background-color: var(--baltic-sea);
+}
+
+.footer-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./Images/home-appliances1.0.jfif') center/cover no-repeat;
+  padding: 3rem 0;
+  color: var(--white-background);
+  text-align: center;
+}
+
+.footer-container h2 {
+  font-size: 2.4rem;
+}
+
+.footer-container .btn {
+  margin-top: 2rem;
+}
+
+.footer-container .btn:hover {
+  background: var(--fire-bush);
+  border: var(--fire-bush);
+  color: var(--white-background);
+}
+
+footer > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 480px) {
   .btns button{
     display: inline-block;
