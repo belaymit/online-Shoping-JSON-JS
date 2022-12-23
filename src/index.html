@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/1bc3a7e061.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Food Recipe App:git flow</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="navbar-brand">My Shop</a>
+          <button type="button" class="navbar-toggler">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="navbar-collapse">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <button type="button" id="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="cart-count-info">0</span>
+            </button>
+            <div class="cart-container">
+              <div class="cart-list">
+                <div class="cart-item">
+                  <img src="./Images/tv.1.0.jpg" alt="apple-tv" />
+                  <div class="cart-item-info">
+                    <h3 class="cart-item-name">Television</h3>
+                    <span class="cart-item-category">Apple TV</span>
+                    <span class="cart-item-price">$2000.00</span>
+                  </div>
+                  <button type="button" class="cart-item-del-btn">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="cart-total">
+                <h3>Total: $</h3>
+                <span id="cart-total-value">$2000.0</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="banner">
+          <div class="banner-content">
+            <h1>Electronics We use at Home</h1>
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sed
+              accusantium saepe facilis dolorem at accusamus aliquam similique
+              molestias autem harum deleniti, repellat, suscipit excepturi eos
+              fuga numquam atque sint quia in. Accusantium dolor nesciunt autem
+              vitae velit explicabo fuga?
+            </p>
+            <div class="btn-container">
+              <button class="btn" type="button">Know More</button>
+              <button class="btn" type="button">More Info</button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./Images/home-appliances1.0.jfif" alt="home-appliances" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="product-list">
+          <div class="product-item">
+            <div class="product-img">
+              <img src="./Images/mackbook1.0.jpg" alt="mack-book" />
+              <button type="button" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name">Apple Mackbook</h3>
+              <span class="product-category">Mackbook</span>
+              <p class="product-price">$1900.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <h2>Unlimited Products Collection</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse
+            quos cumque recusandae adipisci deleniti libero est odio saepe
+            voluptatum numquam error autem eaque nulla temporibus eveniet
+            accusantium quas, repellat placeat magnam impedit quis praesentium
+            consectetur omnis. Sunt, neque nihil?
+          </p>
+          <button type="button" class="btn">View More</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
