@@ -9,7 +9,7 @@ const addToCartList = (data) => {
                   <div class="cart-item-info">
                     <h3 class="cart-item-name">${data.title}</h3>
                     <span class="cart-item-category">${data.category}</span>
-                    <span class="cart-item-price">$${data.price}</span>
+                    <span class="cart-item-price">${data.price}</span>
                   </div>
                   <button type="button" class="cart-item-del-btn">
                     <i class="fas fa-times"></i>
