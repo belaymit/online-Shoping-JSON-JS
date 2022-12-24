@@ -1,4 +1,5 @@
 import addToCartList from './addToCartList.js';
+import saveProductInStorage from './saveProductInStorage.js';
 
 let cartItemID = 1;
 
@@ -13,6 +14,7 @@ const getProductInfo = (product) => {
   };
   cartItemID += 1;
   addToCartList(productInfo);
+  saveProductInStorage(productInfo);
 };
 
 const cartItems = (e) => {
