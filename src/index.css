@@ -227,11 +227,11 @@ header .container {
 .cart-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 0.5rem;
   align-items: center;
   position: relative;
-  padding: 1.2rem 0.6rem;
+  padding: 0.9rem 0;
   height: 140px;
+  margin: auto 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.21);
 }
 
@@ -252,11 +252,16 @@ header .container {
 }
 
 .cart-item img {
-  width: 100px;
+  width: 80px;
 }
 
 .cart-item-info {
-  text-align: center;
+  text-align: left;
+  margin-top: 32px;
+}
+
+.cart-item-info h3 {
+  font-size: 0.9rem;
 }
 
 .cart-item-info span {
@@ -264,6 +269,7 @@ header .container {
 }
 
 .cart-total {
+  margin-top: 4rem;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -366,30 +372,39 @@ header .container {
 }
 
 .product-img {
-  background: var(--ghost-white);
-  padding: 3rem 0;
-  height: 350px;
+  background: #e6e5df;
+  padding: 1rem 0;
+  height: 300px;
   overflow: hidden;
   position: relative;
+  transition: var(--transition);
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.product-img:hover {
+  scale: 1.2;
+  border-radius: 0.8rem;
+  opacity: 0.8;
 }
 
 .product-img img {
   position: absolute;
+  border-radius: 0.8rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   transition: var(--transition);
-}
-
-.product-img:hover {
-  opacity: 0.8;
 }
 
 .product-content {
   padding: 1.6rem 0;
   text-align: center;
+  background: rgb(214, 207, 207);
+  border-radius: 0 0 0.8rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 .add-to-cart {
