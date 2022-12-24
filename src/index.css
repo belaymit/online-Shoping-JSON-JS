@@ -229,7 +229,7 @@ header .container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   position: relative;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
   height: 140px;
   margin: auto 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.21);
@@ -261,7 +261,7 @@ header .container {
 }
 
 .cart-item-info h3 {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .cart-item-info span {
@@ -378,17 +378,18 @@ header .container {
   overflow: hidden;
   position: relative;
   transition: var(--transition);
-  border-radius: .8rem 0.8rem 0 0;
+  border-radius: 0.8rem 0.8rem 0 0;
 }
 
 .product-img:hover {
   scale: 1.2;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
+  opacity: 0.8;
 }
 
 .product-img img {
   position: absolute;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -397,22 +398,15 @@ header .container {
   transition: var(--transition);
 }
 
-.product-img:hover {
-  opacity: 0.8;
-}
-
 .product-content {
   padding: 1.6rem 0;
   text-align: center;
   background: rgb(214, 207, 207);
   border-radius: 0 0 0.8rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
-.product-content {
-  font-size: .8rem;
-  font-weight: 300;
-  padding: 4px;
-}
 .add-to-cart {
   position: absolute;
   top: 50%;
