@@ -227,11 +227,11 @@ header .container {
 .cart-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 0.5rem;
   align-items: center;
   position: relative;
-  padding: 1.2rem 0.6rem;
+  padding: .9rem 0;
   height: 140px;
+  margin: auto 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.21);
 }
 
@@ -252,11 +252,16 @@ header .container {
 }
 
 .cart-item img {
-  width: 100px;
+  width: 80px;
 }
 
 .cart-item-info {
-  text-align: center;
+  text-align: left;
+  margin-top: 32px;
+}
+
+.cart-item-info h3 {
+  font-size: .9rem;
 }
 
 .cart-item-info span {
@@ -264,6 +269,7 @@ header .container {
 }
 
 .cart-total {
+  margin-top: 4rem;
   padding: 1rem;
   display: flex;
   align-items: center;
